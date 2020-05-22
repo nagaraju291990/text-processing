@@ -15,7 +15,7 @@ fp2.close() # Close file
 
 list_hash = {}
 for word in words:
-	if(word != ""):
+	if(word != "" and re.search(r'\t', word)):
 		tt = word.split("\t")
 		src = tt[0]
 		tgt = tt[1]
