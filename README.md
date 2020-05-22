@@ -11,8 +11,8 @@ python3 word_ambguity-normalizer.py input.txt list.txt
 ```bash
 python3 mt-ready-normalizer.py ET-l-01-transcription-rich-text-MTReady.txt mtready-variation.txt
 ```
-Here mtready-variation.txt has fixed lines like
-
+### Here mtready-variation.txt has fixed lines like
+```
 # Anywhere in the text
 nineteen twenty four	1924
 nineteen forty five	1945
@@ -39,5 +39,5 @@ Number eleven,	11)
 et-one	ET-I
 et-two	ET-II
 et-three	ET-III
-
+```
 Based on the comment lines regex will be formed. So dont change comment line format.
